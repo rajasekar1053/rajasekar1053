@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    max-width: 450px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@font-face {
+    font-family: 'poppins';
+    src: url(files/fonts/poppins/Poppins-Black.ttf);
+}
+.parent{
+    border: 20px solid whitesmoke;
+}
+img{
+    margin-left: 9pc;
+    width: 100px;
+    margin-top: 40px;
+}
+.heading {
+    text-align: center;
+    font-weight: 700;
+    
+}
+.content {
+    text-align: center;
+    padding: 12px;
+    font-weight: 600;
+}
+.mainbtn{
+    border: none;
+    margin-left: 140px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.parent .mainbtn a{
+
+   text-decoration: none;
+   
+   color:  #D0B200;
+   display: inline-block;
+  
+   padding: 15px;
+ 
+     border:2px solid #D0B200;
+     border-radius: 10px;
+}
