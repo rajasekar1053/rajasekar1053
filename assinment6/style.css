@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    color: #ffffff;
+  
+}
+.main_container{
+    background-image: url(/image/chat.png);
+    max-width: 400px;
+    height: 600px;
+   
+    font-family: url(./fonts/Roboto-Black.ttf);
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+.container{
+    margin-bottom: 65px;
+}
+
+
+.container .name{
+    background-color: #323f4b;
+    padding: 20px;
+    margin-top: 0px;
+    text-align: center;
+
+
+}
+.odd{
+    width: 380px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-align-last:end;
+    padding: 10px;
+    background-color: #47a3f3;
+}
+.even{
+    width: 380px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #52606d;
+    padding: 10px;
+    
+}
